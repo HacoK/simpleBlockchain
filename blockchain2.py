@@ -3,8 +3,8 @@ import json
 from time import time
 from urllib.parse import urlparse
 from uuid import uuid4
-import requests
 
+import requests
 from flask import Flask, request
 from flask.json import jsonify
 
@@ -276,4 +276,4 @@ def consensus():
 
 
 if __name__ == '__main__':
-    app.run(host='127.0.0.1', port=5000)
+    app.run(host='172.19.109.181', port=5000)
